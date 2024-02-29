@@ -630,6 +630,7 @@ header{
   }
 header h3{
   font-size: 56px;
+  margin-left: -2%;
 }
     .about h1 {
       margin-left: -15%;
@@ -647,7 +648,7 @@ header h3{
       margin-bottom: 12%;
       font-size: 14px;
       line-height: 20px;
-      font-family: "Nunito Sans", sans-serif;
+      font-family: sans-serif;
       letter-spacing: normal;
       /* word-spacing: 1px; */
     }
@@ -726,17 +727,30 @@ header h3{
       
     }
     .projecth1{
-      margin-left: -3%;
-      font-size: 40px;
+      margin-left: -22%;
+      font-size: 44px;
       color:white;
+      line-height:67px;
+      text-align:center;
+      font-family: "Playfair Display", serif;
+    }
+    .project h3{
+      margin-left: 7%;
+      margin-top: -24px;
+      font-size: 15px;
+      color:white;
+      line-height:5px;
+      text-align:left;
+      font-weight: lighter;
+      font-family: "Abel", sans-serif;
     }
     .project-card{
       flex-direction: column;
-      width: 450px;
-      height: 210px;
+      width: 480px;
+      height: 240px;
       margin-top: 9%;
-      margin-left: -12%;
-      margin-right: 0%;
+      margin-left: -18%;
+      right: -20%;
       font-size: 15px;
       border: 0px;
       border-radius: 5px;
@@ -747,19 +761,17 @@ header h3{
       text-decoration: none;
       font-family: Montserrat, sans-serif;
       color: white;
-      /* margin-left: 260px; */
-
+      margin-left: 40px;
     }
     .project-name{
       margin-top: 10%;
       display:flex;
       font-family: Montserrat, sans-serif;
       line-height: 17px;
-      font-size: 18px;
+      font-size: 15px;
       width: 100%;
       height: 180px;
       margin-left: 20px;
-      
     }
     .project-btn:hover{
       background-color: #452017;

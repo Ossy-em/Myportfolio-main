@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="project-card">
         <img src={ProjectImage} alt="Project Screenshot" className="project-image" />
         <h2 className="project-name">{projectName} <a href={projectUrl} className='project-btn'>
-      viewProject
+      View Project
     </a> 
         </h2>
       </div>
