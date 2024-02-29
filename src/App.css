@@ -269,6 +269,7 @@ nav {
   text-decoration: dashed;
   color: #fff;
   margin-right: 4%;
+  
 }
 .app-container{
   margin-bottom: 80px;
@@ -286,10 +287,11 @@ nav {
    width: 40px; /* Adjust the width and height as needed */
    height: 40px; /* Adjust the width and height as needed */
    border-radius: 50%; /* Makes the shape circular */
-   text-align: center;
+   /* text-align: center; */
    margin: 10px; /* Adjust spacing between icons */
    color:orangered;
    margin-bottom: 30px;
+   
 }
 
 .contact-link:hover {
@@ -599,7 +601,6 @@ header{
       margin-left: -2%;
       font-size: 50px;
       color:white;
-      
     }
     .sc{
       align-items: center;
@@ -609,7 +610,7 @@ header{
     }
     .category{
       width: 330px;
-      height: 390px;
+      height: 400px;
     } 
 
 }
@@ -645,11 +646,11 @@ header h3{
       margin-left: -18%;
       margin-right: 6%;
       margin-bottom: 12%;
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 18px;
       font-family: sans-serif;
+      line-height: 20px;
       letter-spacing: normal;
-      /* word-spacing: 1px; */
+      color: white;
     }
     .do{
       margin-top: 17%;
@@ -659,14 +660,14 @@ header h3{
       margin-top:29%;
       margin-left: 16%;
       margin-right: 0%;
-      font-size: 34px;
+      font-size: 39px;
     }
     .do p {
       margin-left: -23%;
-      font-size: 16px;
-      line-height: 22px;
+      line-height: 20px;
       margin-right:3%;
       margin-top: -6%; 
+      font-size: 18px;
       font-family: sans-serif;
       color: white;
     }
@@ -703,26 +704,25 @@ header h3{
     /*SKILLS*/
     .skil{
       margin-left: -1%;
-      font-size: 38px;
+      font-size: 39px;
       color:white;
     }
     .sc{
       flex-direction: column;
       width: 60%;
       margin-top: -8%;
-     
     }
     .category{
       width: 300px;
-      height: 340px;
-      margin-left: 47%;
-      
+      height: 360px;
+      margin-left: 47%; 
     }
     .icon{
       margin-top: -6%;
     }
-    .category p{
-      margin-top: -2%;
+
+    .category-name{
+      font-size: 25px;
       
     }
     .projecth1{
@@ -734,6 +734,7 @@ header h3{
       font-weight: bolder;
       letter-spacing: normal;
     }
+
     .project h3{
       margin-left: 6%;
       margin-top: -24px;
@@ -794,10 +795,20 @@ header h3{
       font-weight:400;
       text-align: center;
     }
-    .contact-link{
-      border-radius : 50%;
-      width: 36px;
-      height: 36px;
-     
+    .contact-container{
+      display: block; 
     }
+    
+    .contact-link{
+      margin-right: 30%;
+      margin-left: -24%;
+      text-align: left;
+      padding-left: 9px;
+      font-size: 12px;
+      width: 45px;
+      height: 45px;
+      margin-top: -2%;
+      border: 3px solid orangered;
+    }
+    
   }
