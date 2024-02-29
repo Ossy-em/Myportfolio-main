@@ -282,12 +282,11 @@ nav {
 
 .contact-link {
    margin-top: 119px;
-   display: inline-block;
-   width: 30px; /* Adjust the width and height as needed */
-   height: 60px; /* Adjust the width and height as needed */
+   /* display: inline-block; */
+   width: 40px; /* Adjust the width and height as needed */
+   height: 40px; /* Adjust the width and height as needed */
    border-radius: 50%; /* Makes the shape circular */
    text-align: center;
-   line-height: 60px; /* Centering the icon vertically */
    margin: 10px; /* Adjust spacing between icons */
    color:orangered;
    margin-bottom: 30px;
@@ -629,7 +628,7 @@ header{
     background-size: cover; /* Adjust as needed */
   }
 header h3{
-  font-size: 56px;
+  font-size: 50px;
   margin-left: -2%;
 }
     .about h1 {
@@ -728,21 +727,22 @@ header h3{
     }
     .projecth1{
       margin-left: -22%;
-      font-size: 44px;
-      color:white;
+      font-size: 40px;
       line-height:67px;
       text-align:center;
-      font-family: "Playfair Display", serif;
+      font-family: "Abril Fatface", serif;
+      font-weight: bolder;
+      letter-spacing: normal;
     }
     .project h3{
-      margin-left: 7%;
+      margin-left: 6%;
       margin-top: -24px;
       font-size: 15px;
-      color:white;
+      letter-spacing: normal;
       line-height:5px;
       text-align:left;
       font-weight: lighter;
-      font-family: "Abel", sans-serif;
+      font-family: "Montserrat", sans-serif;
     }
     .project-card{
       flex-direction: column;
@@ -756,28 +756,48 @@ header h3{
       border-radius: 5px;
     }
     .project-btn{
-      width:400px;
+      width:48%;
       height: 47px;
       text-decoration: none;
-      font-family: Montserrat, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       color: white;
-      margin-left: 40px;
+      margin-left: 80px;
     }
     .project-name{
-      margin-top: 10%;
+      margin-top: 8%;
       display:flex;
-      font-family: Montserrat, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       line-height: 17px;
       font-size: 15px;
       width: 100%;
       height: 180px;
       margin-left: 20px;
+      font-weight:600;
     }
     .project-btn:hover{
       background-color: #452017;
-      border-radius: 30px 0px;
-      width: 200px;
-      height: 46px;
-      
+      border-radius: 20px 0px;
+      width: 180px;
+      height: 47px;
+      padding: 12px;
+    }
+    .project-image{
+      height: 210px;
+      width: 450px;
+      border-radius:5px;
+      box-shadow:none;
+    }
+    .contact-container h3{
+      font-size:20px;
+      line-height: 32px;
+      font-family: "Montserrat", sans-serif;
+      font-weight:400;
+      text-align: center;
+    }
+    .contact-link{
+      border-radius : 50%;
+      width: 36px;
+      height: 36px;
+     
     }
   }
